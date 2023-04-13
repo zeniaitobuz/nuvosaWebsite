@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  font-family: "Work Sans", sans-serif;
   padding: 0%;
   margin: 0%;
   font-family: "Poppins", sans-serif;
@@ -10,7 +9,7 @@ body {
   font-size: small;
 }
 .grey-text {
-  color: #727272;
+  color: #828282;
 }
 .dark-grey-text {
   color: #4b4646;
@@ -222,6 +221,50 @@ body {
 }
 .plans:hover .plan-details {
   color: white !important;
+}
+.teams:hover {
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+  border: 2px solid white !important;
+}
+.team-names:hover {
+  color: #6f77f1;
+}
+.social-media-icon:hover {
+  color: #6f77f1;
+}
+.subscribe-btn {
+  background-color: #6f77f1;
+  color: white;
+  border-radius: 6px;
+}
+.subscribe-btn:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.nuvosa-heading span {
+  color: #bc424e;
+  font-weight: bolder;
+  font-size: 8rem;
+}
+.copyright-sec {
+  border-top: 1px solid #eae5e5;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.testimonials-card {
+  background-image: url("../images/swiper/quote.svg");
+  background-repeat: no-repeat;
+  width: 32rem;
+}
+
+.testimonials-card img {
+  width: 50px;
+  height: 50px;
+}
+.testimonials-card:hover {
+  border: 1px solid white !important;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 
 @media screen and (min-width: 765px) {
