@@ -18,6 +18,9 @@ body {
 .grey-background {
   background: #fafafa;
 }
+.blue-texts {
+  color: #6f77f1;
+}
 .navbar {
   padding-right: 5%;
 }
@@ -69,7 +72,6 @@ body {
   gap: 10vw;
 }
 .start-btn {
-  background: #fad725;
   width: 120%;
 }
 .banner-buttons img {
@@ -101,9 +103,6 @@ body {
 }
 .optimise {
   padding: 5%;
-}
-.optimise-text span {
-  color: #6f77f1;
 }
 .optimise-text p {
   margin-top: 5%;
@@ -148,9 +147,6 @@ body {
   color: #6f77f1;
 }
 
-.learn-btn {
-  background: #fad725;
-}
 .leads {
   padding: 5% 10% 5% 10%;
   background-image: url("../images/leads/back.png");
@@ -165,9 +161,6 @@ body {
   align-items: center;
   gap: 2rem;
   background: #fafafa;
-}
-.choose span {
-  color: #6f77f1;
 }
 .yellow-btn {
   background: #fad725;
@@ -188,9 +181,6 @@ body {
 .seo-img img {
   width: 100%;
 }
-.seo-need span {
-  color: #6f77f1;
-}
 .seo-list img {
   width: 101px;
   margin: auto;
@@ -200,6 +190,38 @@ body {
 }
 .clients i {
   margin: auto;
+}
+.speed-heading {
+  font-size: 55px;
+}
+.input-speed {
+  background: #f2f2f2;
+}
+.plans {
+  width: 18rem;
+  transition: all 1s;
+}
+.plans-btn {
+  all: unset;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+.plans:hover {
+  color: white !important;
+  background-image: url("../images/plans/Mask-group.svg");
+  background-size: cover;
+  background-color: #6f77f1;
+  transform: scale(1.1);
+  z-index: 9;
+}
+.plans:hover .plans-btn {
+  background-color: #fad725 !important;
+  border-color: #fad725;
+  color: #4b4646;
+}
+.plans:hover .plan-details {
+  color: white !important;
 }
 
 @media screen and (min-width: 765px) {
